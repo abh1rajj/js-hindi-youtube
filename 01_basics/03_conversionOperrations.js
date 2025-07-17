@@ -67,4 +67,4 @@ let gameCounter = 100
 console.log(gameCounter);
 
 // link for diff b/w prefix and postfix increment
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
