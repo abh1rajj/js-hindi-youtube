@@ -33,3 +33,30 @@ const myFunction = function(){
 }
 console.log(typeof anotherId);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++ //
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let myYoutubename = "hiteshchaudhury.com"
+
+let anotherName = myYoutubename
+anotherName = "Chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// In stack, we get a copy 
+// In heap, we get a reference i.e. changes are made to the original value
